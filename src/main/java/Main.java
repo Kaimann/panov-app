@@ -52,12 +52,12 @@ public class Main extends JFrame {
         contentPane.add(textField);
         textField.setColumns(10);
 
-        JLabel lblUsername = new JLabel("How many numbers to display?");
-        lblUsername.setBackground(Color.BLACK);
-        lblUsername.setForeground(Color.BLACK);
-        lblUsername.setFont(new Font("Tahoma", Font.PLAIN, 21));
-        lblUsername.setBounds(350, 155, 300, 68);
-        contentPane.add(lblUsername);
+        JLabel label = new JLabel("How many numbers to display?");
+        label.setBackground(Color.BLACK);
+        label.setForeground(Color.BLACK);
+        label.setFont(new Font("Tahoma", Font.PLAIN, 21));
+        label.setBounds(350, 155, 300, 68);
+        contentPane.add(label);
 
         JButton buttonEnter = new JButton("Enter");
         buttonEnter.setFont(new Font("Tahoma", Font.PLAIN, 26));
